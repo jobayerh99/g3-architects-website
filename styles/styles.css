@@ -1,5 +1,68 @@
+/* imported fonts from google */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+
+/* common shared styles */
 
 * {
     font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary{
+
+}
+
+/* nav related styles */
+
+header {
+    background-color: rgba(255, 144, 14, 0.10);
+}
+
+nav {
+    display: flex;
+    padding: 50px 240px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #131313;
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* banner section styles */
+
+.banner-content{
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-text{
+    color: #727272;
+    font-weight: 400;
 }
